@@ -1,0 +1,233 @@
+/* color palette: http://www.colourlovers.com/palette/46688/fresh_cut_day */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 17px;
+}
+
+h1, h2, h3 {
+    font-family: Verdana, Tahoma, Helvetica, sans-serif;
+}
+
+p {
+    line-height: 1.45em;
+}
+
+ul {
+    padding-left: 1.1em;
+}
+
+ul li {
+    padding: 0;
+    margin: 0;
+    line-height: 1.7em;
+}
+
+
+a:hover, a:focus, a:active, a.active {
+    color: #40C0CB;
+    text-decoration: underline;
+}
+
+a {
+    color: #00A8C6;
+}
+
+a:hover, a:focus, a:active {
+    color: #40C0CB;
+    text-decoration: underline;
+}
+
+/* menu */
+header {
+    padding: .2em;
+    font-size: 1.2em;
+    background: #00A8C6;
+}
+
+header nav a {
+	color: #4bf4ff;
+    display: inline-block;
+    padding: .6em 1em;
+}
+
+header a.active, header nav a:focus, header nav a:active {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.top-navigation {
+    float: right;
+}
+
+.section {
+    padding: 3em 0;
+}
+
+.intermezzo {
+    padding: 1.5em 0;
+    background: #F9F2E7;
+    font-size: 1.2em;
+}
+
+.intermezzo-smaller {
+    padding: 1em 0;
+    background: #F9F2E7;
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 3.4em;
+    line-height: 1.5em;
+    padding: 1em 0;
+}
+
+h2, .h2 {
+    margin: .8em 0;
+    font-size: 2.7em;
+    line-height: 1.1em;
+    padding: 0;
+}
+
+h2 small {
+    color: inherit;
+}
+
+h1, h2, .h2, h3 {
+    color: #8FBE00;
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2.3em;
+    }
+}
+
+#sponsor-logos img {
+    padding: 1.3em;
+}
+
+#sponsor-logos a:hover {
+    text-decoration: none;
+}
+
+.btn {
+    font-size: .9em;
+}
+
+* img {
+    max-width: 100%;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.highlights-list {
+    font-size: 1.6em;
+}
+
+/* for kde-najdes-kamose.latte */
+.grey-bg {
+    background-color: #f5f5f5;
+}
+
+.input-group-btn button.btn {
+    font-size: 14px !important;
+}
+
+#map {
+    height: 500px;
+}
+
+#formMap {
+    height: 400px;
+    margin-top: 5px;
+}
+
+/* for slovnicek.latte */
+#vocabulary > dd {
+    border-bottom: 1px #eee solid;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+#vocabulary > dd:last-of-type {
+    border-bottom: none;
+}
+
+#vocabulary sup {
+    white-space: nowrap;
+}
+
+.text-greater {
+    font-size: 1.3em;
+}
+
+/* index page */
+#slack-logo {
+    padding: 4em 0;
+}
+
+.manual-list {
+    margin-top: 1em;
+    margin-left: -.8em;
+    line-height: 1.7em;
+    font-size: 1.2em;
+}
+
+/* nicer, less-wide container */
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 980px;
+    }
+}
+
+/* for blog.latte, _layout/post.latte */
+#blog {
+    padding-top: 3em;
+}
+
+#article {
+    padding-top: 3em;
+}
+
+#article h2 {
+    margin-top: 1em;
+    font-size: 1.8em;
+}
+
+#article h3 {
+    margin-top: 1em;
+    font-size: 1.4em;
+}
+
+
+.perex {
+    line-height: 1.5em;
+    color: #666;
+}
+
+.intermezzo-smaller {
+    margin: 1em 0 3em;
+}
+
+.less-relevant {
+    color: #666;
+}
